@@ -1,0 +1,11 @@
+rev001 (Jan 22 2014): Initial release
+
+rev002 (Feb 20 2014): Physiological data fixes and additions
+
+  - physiological data for all participants in original
+    sampling rate (physio_pristine.txt.gz) was added
+  - physiological data for sub008 run005 was updated to
+    strip leading data samples prior to the fixes MR
+    trigger signal. Thanks to Christine Guo for the report.
+  - trigger log for first MR trigger (only) was offset by
+    one data sample (5-10ms)
